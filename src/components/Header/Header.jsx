@@ -12,6 +12,7 @@ const Header = () => {
             <div className={styles.menu}>
               <li>Sobre mim</li>
               <li>Experiências</li>
+              <li>Habilidades</li>
               <li>Meus projetos</li>
               <li>Contato</li>
             </div>
