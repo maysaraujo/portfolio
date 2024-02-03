@@ -1,0 +1,35 @@
+header {
+  background-color: var(--black-200);
+  padding: 20px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+header .container {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container ul li {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+header .container ul .dev li {
+  color: var(--magenta);
+  font-weight: 700;
+}
+
+header .container ul .menu {
+  display: flex;
+  gap: 30px;
+  color: var(--white);
+  font-weight: 600;
+}

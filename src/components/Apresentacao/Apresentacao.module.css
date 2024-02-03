@@ -1,0 +1,9 @@
+section {
+  background-color: var(--black-200);
+}
+
+section .redes .iconLinkedin>svg {
+  width: 32px;
+  height: 32px;
+  color: var(--white);
+}
