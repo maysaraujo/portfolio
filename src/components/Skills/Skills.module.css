@@ -1,0 +1,26 @@
+section.skillsSection {
+  background-color: var(--black-100);
+  padding: 40px 0;
+}
+
+section .cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 180px);
+  gap: 50px 0;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+section .cardContainer .card {
+  border: 1px solid var(--magenta);
+  border-radius: 5px;
+  width: 126px;
+  height: 105px;
+}
+
+section .cardContainer .card .icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
