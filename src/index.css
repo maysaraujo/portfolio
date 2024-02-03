@@ -8,16 +8,24 @@
 :root {
   --black-100: #252122;
   --black-200: #231F20;
+  --gray: #9CA3AF;
   --magenta: #DF2BF1;
   --white: #FFF;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
 }
 
 li {
   list-style: none;
+}
+
+h2 {
+  font-size: 32px;
+  color: var(--white);
+  font-weight: 600;
 }
 
 header .container,
