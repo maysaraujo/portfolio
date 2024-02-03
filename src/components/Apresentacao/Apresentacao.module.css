@@ -2,8 +2,47 @@ section {
   background-color: var(--black-200);
 }
 
-section .redes .iconLinkedin>svg {
-  width: 32px;
-  height: 32px;
+section .apresentacaoContainer {
+  padding: 60px 0 60px 10px;
+}
+
+section .apresentacaoContainer h1 {
+  font-size: 48px;
   color: var(--white);
+  font-weight: 800;
+}
+
+section .apresentacaoContainer {
+  font-size: 20px;
+  color: var(--white);
+  margin-bottom: 25px;
+}
+
+section .redes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+section .redes .iconLinkedin>svg {
+  fill: var(--white);
+
+  cursor: pointer;
+  transition: all .5s ease-out;
+}
+
+section .redes .iconLinkedin>svg:hover {
+  fill: var(--magenta);
+}
+
+section .redes .iconGithub>svg {
+  fill: var(--white);
+
+  cursor: pointer;
+  transition: all .5s ease-out;
+}
+
+section .redes .iconGithub>svg:hover {
+  fill: var(--magenta);
 }
