@@ -1,10 +1,10 @@
-import styles from './Apresentacao.module.css';
+import styles from './Apresentation.module.css';
 
-const Apresentacao = () => {
+const Apresentation = () => {
   return (
-    <section>
+    <section className={styles.apresentationSection}>
       <div className='container'>
-        <div className={styles.apresentacaoContainer}>
+        <div className={styles.apresentationContainer}>
           <h1>Olá, eu sou a Maysa Araujo</h1>
           <p> Desenvolvedora Front-end.</p>
           <div className={styles.redes}>
@@ -35,4 +35,4 @@ const Apresentacao = () => {
   );
 };
 
-export default Apresentacao;
+export default Apresentation;

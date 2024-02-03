@@ -1,21 +1,20 @@
-section {
+section.apresentationSection {
   background-color: var(--black-200);
 }
 
-section .apresentacaoContainer {
+section .apresentationContainer {
   padding: 60px 0 60px 10px;
 }
 
-section .apresentacaoContainer h1 {
+section .apresentationContainer h1 {
   font-size: 48px;
   color: var(--white);
   font-weight: 800;
 }
 
-section .apresentacaoContainer {
+section .apresentationContainer {
   font-size: 20px;
   color: var(--white);
-  margin-bottom: 25px;
 }
 
 section .redes {
