@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 const Header = () => {
   return (
     <header>
-      <div className={styles.container}>
+      <div className='container'>
         <nav>
           <ul>
             <div className={styles.dev}>

@@ -19,3 +19,11 @@ body {
 li {
   list-style: none;
 }
+
+header .container,
+section .container,
+footer .container {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+}

@@ -5,29 +5,28 @@ header {
   position: relative;
 }
 
-header .container {
-  max-width: 1400px;
-  width: 90%;
-  margin: 0 auto;
-}
-
 header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .container ul li {
+header ul li {
   font-size: 13px;
   cursor: pointer;
+  transition: all .5s ease-out;
 }
 
-header .container ul .dev li {
+header ul li:hover {
+  color: var(--magenta);
+}
+
+header ul .dev li {
   color: var(--magenta);
   font-weight: 700;
 }
 
-header .container ul .menu {
+header ul .menu {
   display: flex;
   gap: 30px;
   color: var(--white);
