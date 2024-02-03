@@ -1,0 +1,15 @@
+section.aboutSection {
+  background-color: var(--black-100);
+  padding: 40px 0;
+}
+
+section.aboutSection h2 {
+  font-size: 32px;
+  color: var(--white);
+  font-weight: 600;
+}
+
+section.aboutSection p {
+  color: var(--white);
+  font-size: 20px;
+}
