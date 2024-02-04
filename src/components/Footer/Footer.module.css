@@ -1,0 +1,16 @@
+footer {
+  background-color: var(--black-100);
+  padding: 40px 0;
+}
+
+footer p {
+  font-size: 18px;
+  color: var(--white);
+  font-weight: 600;
+  text-align: center;
+}
+
+footer span {
+  color: var(--magenta);
+  cursor: pointer;
+}
