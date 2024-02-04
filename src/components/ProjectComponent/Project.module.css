@@ -1,0 +1,55 @@
+section.projectSection {
+  background-color: var(--black-200);
+  padding: 40px 0;
+}
+
+section .cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 25px;
+}
+
+section .cardContainer .card {
+  width: 390px;
+  max-width: 100%;
+  max-height: 100%;
+
+  border: 1px solid var(--magenta);
+  border-radius: 5px;
+  padding: 20px 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+section .cardContainer .card h3 {
+  font-size: 30px;
+  color: var(--white);
+  font-weight: 600;
+}
+
+section .cardContainer .card h4 {
+  font-size: 18px;
+  color: var(--gray);
+  font-weight: 500;
+}
+
+section .cardContainer .card .link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .cardContainer .card .link p {
+  font-size: 18px;
+  color: var(--magenta);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+section .cardContainer .card .link>svg {
+  cursor: pointer;
+}
