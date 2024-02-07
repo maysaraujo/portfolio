@@ -1,9 +1,6 @@
 section.apresentationSection {
   background-color: var(--black-200);
-}
-
-section .apresentationContainer {
-  padding: 60px 0 40px 10px;
+  padding: 110px 0 40px 10px;
 }
 
 section .apresentationContainer h1 {
