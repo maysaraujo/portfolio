@@ -1,8 +1,10 @@
+/* eslint-disable react/display-name */
 import styles from './Skills.module.css';
+import { forwardRef } from 'react';
 
-const Skills = () => {
+const Skills = forwardRef((props, ref) => {
   return (
-    <section className={styles.skillsSection}>
+    <section ref={ref} className={styles.skillsSection}>
       <div className='container'>
         <h2>Habilidades</h2>
         <div className='svgLine'>
@@ -121,6 +123,6 @@ const Skills = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Skills;

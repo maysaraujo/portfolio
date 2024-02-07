@@ -1,6 +1,13 @@
+/* eslint-disable react/prop-types */
 import styles from './Header.module.css';
 
-const Header = () => {
+const Header = ({
+  aboutRef,
+  experienceRef,
+  skillsRef,
+  projectRef,
+  contactRef,
+}) => {
   return (
     <header>
       <div className='container'>
@@ -10,11 +17,41 @@ const Header = () => {
               <li>Maysa.dev</li>
             </div>
             <div className={styles.menu}>
-              <li>Sobre mim</li>
-              <li>Experiências</li>
-              <li>Habilidades</li>
-              <li>Meus projetos</li>
-              <li>Contato</li>
+              <li
+                onClick={() =>
+                  aboutRef.current.scrollIntoView({ behavior: 'smooth' })
+                }
+              >
+                Sobre mim
+              </li>
+              <li
+                onClick={() =>
+                  experienceRef.current.scrollIntoView({ behavior: 'smooth' })
+                }
+              >
+                Experiências
+              </li>
+              <li
+                onClick={() =>
+                  skillsRef.current.scrollIntoView({ behavior: 'smooth' })
+                }
+              >
+                Habilidades
+              </li>
+              <li
+                onClick={() =>
+                  projectRef.current.scrollIntoView({ behavior: 'smooth' })
+                }
+              >
+                Projetos
+              </li>
+              <li
+                onClick={() =>
+                  contactRef.current.scrollIntoView({ behavior: 'smooth' })
+                }
+              >
+                Contato
+              </li>
             </div>
           </ul>
         </nav>

@@ -1,8 +1,10 @@
+/* eslint-disable react/display-name */
 import styles from './Experience.module.css';
+import { forwardRef } from 'react';
 
-const Experience = () => {
+const Experience = forwardRef((props, ref) => {
   return (
-    <section className={styles.experienceSection}>
+    <section ref={ref} className={styles.experienceSection}>
       <div className='container'>
         <h2>Experiências</h2>
         <div className='svgLine'>
@@ -34,6 +36,6 @@ const Experience = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Experience;

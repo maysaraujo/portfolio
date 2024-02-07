@@ -1,8 +1,10 @@
 import styles from './About.module.css';
+import { forwardRef } from 'react';
 
-const About = () => {
+// eslint-disable-next-line react/display-name
+const About = forwardRef((props, ref) => {
   return (
-    <section className={styles.aboutSection}>
+    <section ref={ref} className={styles.aboutSection}>
       <div className='container'>
         <h2>Sobre mim</h2>
         <div className='svgLine'>
@@ -29,6 +31,6 @@ const About = () => {
       </div>
     </section>
   );
-};
+});
 
 export default About;
