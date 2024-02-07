@@ -2,7 +2,9 @@ header {
   background-color: var(--black-200);
   padding: 20px;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
-  position: relative;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
 }
 
 header ul {
