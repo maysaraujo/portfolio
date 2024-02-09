@@ -11,6 +11,7 @@ import Skills from './components/Skills/Skills';
 
 function App() {
   const aboutRef = useRef(null);
+  const apresentationRef = useRef(null);
   const experienceRef = useRef(null);
   const skillsRef = useRef(null);
   const projectRef = useRef(null);
@@ -20,12 +21,13 @@ function App() {
     <div>
       <Header
         aboutRef={aboutRef}
+        apresentationRef={apresentationRef}
         experienceRef={experienceRef}
         skillsRef={skillsRef}
         projectRef={projectRef}
         contactRef={contactRef}
       />
-      <Apresentation />
+      <Apresentation ref={apresentationRef} />
       <About ref={aboutRef} />
       <Experience ref={experienceRef} />
       <Skills ref={skillsRef} />

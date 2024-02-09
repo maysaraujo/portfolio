@@ -3,6 +3,7 @@ import styles from './Header.module.css';
 
 const Header = ({
   aboutRef,
+  apresentationRef,
   experienceRef,
   skillsRef,
   projectRef,
@@ -14,7 +15,15 @@ const Header = ({
         <nav>
           <ul>
             <div className={styles.dev}>
-              <li>Maysa.dev</li>
+              <li
+                onClick={() =>
+                  apresentationRef.current.scrollIntoView({
+                    behavior: 'smooth',
+                  })
+                }
+              >
+                Maysa.dev
+              </li>
             </div>
             <div className={styles.menu}>
               <li
