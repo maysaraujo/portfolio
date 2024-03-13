@@ -1,8 +1,21 @@
 /* eslint-disable react/display-name */
 import styles from './Experience.module.css';
 import { forwardRef } from 'react';
+import Slider from 'react-slick';
+import '../../App.css';
 
 const Experience = forwardRef((props, ref) => {
+  let settings = {
+    dots: true,
+    arrows: false,
+    fade: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    waitForAnimate: false,
+  };
+
   return (
     <section ref={ref} className={styles.experienceSection}>
       <div className='container'>
@@ -21,17 +34,47 @@ const Experience = forwardRef((props, ref) => {
           </svg>
         </div>
         <div className={styles.experienceContainer}>
-          <div className={styles.cardContainer}>
-            <h3>SPIN Tecnologia</h3>
-          </div>
-          <div className={styles.textContainer}>
-            <h3>Estagiária Front-end</h3>
-            <h4>SPIN Tecnologia</h4>
-            <p>
-              Atuei como estagiária de desenvolvimento Front-end, utilizando
-              HTML, CSS, React.js e Next.js.
-            </p>
-          </div>
+          <Slider {...settings}>
+            <div>
+              <div className={styles.cardContainer}>
+                <div className={styles.titleContainer}>
+                  <h3>SPIN Tecnologia</h3>
+                </div>
+
+                <div className={styles.textContainer}>
+                  <div>
+                    <h3>Estagiária Front-end</h3>
+                    <p>Ago 2022 - Jan 2023 (6 meses)</p>
+                  </div>
+                  <h4>SPIN Tecnologia</h4>
+                  <p>
+                    Atuei como estagiária de desenvolvimento Front-end,
+                    utilizando HTML, CSS, React.js e Next.js.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className={styles.cardContainer}>
+                <div className={styles.titleContainer}>
+                  <h3>Mkt4Edu / 4revops</h3>
+                </div>
+
+                <div className={styles.textContainer}>
+                  <div>
+                    <h3>Desenvolvedora Front-end</h3>
+                    <p>Jan 2023 - atual</p>
+                  </div>
+                  <h4>Mkt4Edu / 4revops</h4>
+                  <p>
+                    Atuo como desenvolvedora Front-end, utilizando
+                    principalmente HTML, CSS e JavaScript Vanilla.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Slider>
         </div>
       </div>
     </section>
