@@ -4,18 +4,22 @@ section.experienceSection {
 }
 
 section .experienceContainer {
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
   margin-top: 25px;
 }
 
 section .experienceContainer .cardContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+section .experienceContainer .cardContainer .titleContainer {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
   position: relative;
   padding: 15px;
   min-width: 330px;
   border-left: 5px solid var(--magenta);
+  overflow: hidden;
 }
 
 section .experienceContainer .cardContainer h3 {
@@ -43,4 +47,8 @@ section .experienceContainer .textContainer p {
   font-size: 20px;
   color: var(--gray);
   max-width: 540px;
+}
+
+.slick-dots li button {
+  color: var(--magenta) !important;
 }
