@@ -8,6 +8,7 @@ section .contactContainer {
   align-items: center;
   gap: 80px;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 section .contactContainer .contactCard {
@@ -72,4 +73,11 @@ section .buttonContainer button {
   padding: 10px 60px;
   box-shadow: 0 0 3px var(--magenta);
   cursor: pointer;
+}
+
+/* Responsivo */
+@media only screen and (max-width: 600px) {
+  section .contactContainer {
+    gap: 40px;
+  }
 }
