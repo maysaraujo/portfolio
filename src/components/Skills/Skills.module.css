@@ -24,3 +24,16 @@ section .cardContainer .card .icon {
   justify-content: center;
   margin-top: 20px;
 }
+
+/* Responsivo */
+@media only screen and (max-width: 600px) {
+  section .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  section .cardContainer {
+    grid-template-columns: 1fr;
+  }
+}
