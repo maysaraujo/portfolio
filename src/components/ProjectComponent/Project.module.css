@@ -4,7 +4,8 @@ section.projectSection {
 }
 
 section .cardContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   align-items: center;
   justify-content: center;
   gap: 50px;
@@ -52,4 +53,17 @@ section .cardContainer .card .link p {
 
 section .cardContainer .card .link>svg {
   cursor: pointer;
+}
+
+/* Responsivo */
+@media only screen and (max-width: 992px) {
+  section .cardContainer {
+    justify-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section .cardContainer {
+    justify-items: start;
+  }
 }
