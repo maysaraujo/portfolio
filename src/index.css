@@ -27,6 +27,12 @@ a {
   color: unset;
 }
 
+h1 {
+  font-size: 48px;
+  color: var(--white);
+  font-weight: 800;
+}
+
 h2 {
   font-size: 32px;
   color: var(--white);
@@ -43,4 +49,11 @@ footer .container {
 
 section .svgLine {
   margin-top: -20px;
+}
+
+/* Responsivo */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
 }
