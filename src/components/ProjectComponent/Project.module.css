@@ -63,7 +63,7 @@ section .cardContainer .card .link>svg {
 }
 
 @media only screen and (max-width: 600px) {
-  section .cardContainer {
-    justify-items: start;
+  section .cardContainer .card {
+    width: 300px;
   }
 }
