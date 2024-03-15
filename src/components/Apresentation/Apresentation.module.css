@@ -3,12 +3,6 @@ section.apresentationSection {
   padding: 110px 0 40px 10px;
 }
 
-section .apresentationContainer h1 {
-  font-size: 48px;
-  color: var(--white);
-  font-weight: 800;
-}
-
 section .apresentationContainer {
   font-size: 20px;
   color: var(--white);
