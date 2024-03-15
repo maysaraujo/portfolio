@@ -11,6 +11,7 @@ section .experienceContainer .cardContainer {
   display: flex;
   align-items: start;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 section .experienceContainer .cardContainer .titleContainer {
@@ -51,4 +52,11 @@ section .experienceContainer .textContainer p {
 
 .slick-dots li button {
   color: var(--magenta) !important;
+}
+
+/* Responsivo */
+@media only screen and (max-width: 992px) {
+  section .experienceContainer .cardContainer {
+    gap: 40px;
+  }
 }
