@@ -69,7 +69,7 @@ const Skills = forwardRef((props, ref) => {
               </svg>
             </div>
           </div>
-          <div className={styles.card}>
+          {/* <div className={styles.card}>
             <div className={styles.icon}>
               <svg
                 width='60'
@@ -84,7 +84,7 @@ const Skills = forwardRef((props, ref) => {
                 />
               </svg>
             </div>
-          </div>
+          </div> */}
           <div className={styles.card}>
             <div className={styles.icon}>
               <svg
