@@ -7,9 +7,12 @@ section .cardContainer {
   display: grid;
   grid-template-columns: repeat(3, 180px);
   gap: 50px 0;
+
   justify-content: center;
   justify-items: center;
   align-items: center;
+
+  margin-top: 2rem;
 }
 
 section .cardContainer .card {
