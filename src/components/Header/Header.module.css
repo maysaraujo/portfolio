@@ -34,3 +34,54 @@ header ul .menu {
   color: var(--white);
   font-weight: 600;
 }
+
+header .menuBtn {
+  display: none;
+}
+
+.responsiveMenu {
+  transform: none;
+}
+
+/* Responsivo */
+@media only screen and (max-width: 768px) {
+  header .menuBtn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+
+    border: 0;
+    outline: 0;
+    color: var(--magenta);
+
+    display: block;
+    font-size: 1.8rem;
+  }
+
+  header .menu {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    background-color: var(--black-100);
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  header .responsiveMenu {
+    transform: translateY(100vh);
+  }
+
+  .menu .closeBtn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+}
