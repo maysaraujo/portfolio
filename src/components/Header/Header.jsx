@@ -77,7 +77,7 @@ const Header = ({
               </li>
             </div>
             <button
-              className={`${styles.menuBtn} ${styles.closeBtn}`}
+              className={styles.menuBtn}
               onClick={toggleNavbar}
             >
               {isOpen ? <FaTimes /> : <HiMiniBars3 />}
