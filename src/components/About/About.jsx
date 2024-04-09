@@ -22,10 +22,9 @@ const About = forwardRef((props, ref) => {
         </div>
         <div className={styles.textContainer}>
           <p>
-            Desenvolvedora Front-end com experiência em JavaScript, React.js,
-            Next.js e consumo de APIs. Formada em Análise e Desenvolvimento de
-            Sistemas, pela FATEC Mogi Mirim - Arthur de Azevedo e cursando Pós
-            graduação em Engenharia de Software na USP/ESALQ.
+            Desenvolvedora Front-end com experiência em JavaScript, React.js e
+            consumo de APIs. Formada em Análise e Desenvolvimento de Sistemas,
+            pela FATEC Mogi Mirim - Arthur de Azevedo.
           </p>
         </div>
       </div>
