@@ -53,6 +53,7 @@ section .contactContainer .contactCard .textContainer p {
   font-size: 18px;
   color: var(--white);
   font-weight: 400;
+  word-break: break-word;
 }
 
 section .buttonContainer {
