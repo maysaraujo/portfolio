@@ -39,9 +39,9 @@ header .menuBtn {
   display: none;
 }
 
-.responsiveMenu {
+/* .responsiveMenu {
   transform: none;
-}
+} */
 
 /* Responsivo */
 @media only screen and (max-width: 768px) {
@@ -56,9 +56,10 @@ header .menuBtn {
 
     display: block;
     font-size: 1.8rem;
+    z-index: 1;
   }
 
-  header .menu {
+  header ul .menu {
     position: fixed;
     top: -100vh;
     left: 0;
@@ -71,15 +72,15 @@ header .menuBtn {
     gap: 1.5rem;
 
     background-color: var(--black-100);
-    transition: 1s;
-    transform: translateY(-100vh);
+    transition: 1.5s;
+    transform: translateY(-10vh);
   }
 
-  header .responsiveMenu {
+  header ul .menu.showMenu {
     transform: translateY(100vh);
   }
 
-  .menu .closeBtn {
+  header ul .menu .closeBtn {
     position: absolute;
     top: 2rem;
     right: 2rem;
