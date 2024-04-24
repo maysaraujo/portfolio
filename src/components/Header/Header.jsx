@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import styles from './Header.module.css';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { HiMiniBars3 } from 'react-icons/hi2';
 
@@ -12,15 +12,10 @@ const Header = ({
   projectRef,
   contactRef,
 }) => {
-  // const menuRef = useRef();
-
-  // const showMenu = () => {
-  //   menuRef.current.classList.toggle('responsiveMenu');
-  // };
-
   const [isOpen, setIsOpen] = useState(false);
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
+
+  const showMenu = () => {
+    setIsOpen((open) => !open);
   };
 
   return (
@@ -39,7 +34,10 @@ const Header = ({
                 Maysa.dev
               </li>
             </div>
-            <div className={`${styles.menu} ${isOpen ? 'responsiveMenu' : ''}`}>
+            <button className={styles.menuBtn} onClick={showMenu}>
+              {isOpen ? <FaTimes /> : <HiMiniBars3 />}
+            </button>
+            <div className={`${styles.menu} ${isOpen ? styles.showMenu : ''}`}>
               <li
                 onClick={() =>
                   aboutRef.current.scrollIntoView({ behavior: 'smooth' })
@@ -76,21 +74,6 @@ const Header = ({
                 Contato
               </li>
             </div>
-            <button
-              className={styles.menuBtn}
-              onClick={toggleNavbar}
-            >
-              {isOpen ? <FaTimes /> : <HiMiniBars3 />}
-            </button>
-            {/* <button
-                className={`${styles.menuBtn} ${styles.closeBtn}`}
-                onClick={showMenu}
-              >
-                <FaTimes />
-              </button>
-            <button className={styles.menuBtn} onClick={showMenu}>
-              <HiMiniBars3 />
-            </button> */}
           </ul>
         </nav>
       </div>
