@@ -37,26 +37,6 @@ const Experience = () => {
             <div>
               <div className={styles.cardContainer}>
                 <div className={styles.titleContainer}>
-                  <h3>SPIN Tecnologia</h3>
-                </div>
-
-                <div className={styles.textContainer}>
-                  <div>
-                    <h3>Estagiária Front-end</h3>
-                    <p>Ago 2022 - Jan 2023 (6 meses)</p>
-                  </div>
-                  <h4>SPIN Tecnologia</h4>
-                  <p>
-                    Atuei como estagiária de desenvolvimento Front-end,
-                    utilizando HTML, CSS, React.js e Next.js.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div className={styles.cardContainer}>
-                <div className={styles.titleContainer}>
                   <h3>Mkt4Edu / 4revops</h3>
                 </div>
 
@@ -69,6 +49,26 @@ const Experience = () => {
                   <p>
                     Atuo como desenvolvedora Front-end, utilizando
                     principalmente HTML, CSS e JavaScript Vanilla.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className={styles.cardContainer}>
+                <div className={styles.titleContainer}>
+                  <h3>SPIN Tecnologia</h3>
+                </div>
+
+                <div className={styles.textContainer}>
+                  <div>
+                    <h3>Estagiária Front-end</h3>
+                    <p>Ago 2022 - Jan 2023 (6 meses)</p>
+                  </div>
+                  <h4>SPIN Tecnologia</h4>
+                  <p>
+                    Atuei como estagiária de desenvolvimento Front-end,
+                    utilizando HTML, CSS, React.js e Next.js.
                   </p>
                 </div>
               </div>
