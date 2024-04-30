@@ -2,11 +2,10 @@
 import styles from './Contact.module.css';
 import { TbMailFilled } from 'react-icons/tb';
 import { IoLogoLinkedin } from 'react-icons/io';
-import { forwardRef } from 'react';
 
-const Contact = forwardRef((props, ref) => {
+const Contact = () => {
   return (
-    <section ref={ref} className={styles.contactSection}>
+    <section id='contato' className={styles.contactSection}>
       <div className='container'>
         <h2>Contato</h2>
         <div className='svgLine'>
@@ -48,6 +47,6 @@ const Contact = forwardRef((props, ref) => {
       </div>
     </section>
   );
-});
+};
 
 export default Contact;
