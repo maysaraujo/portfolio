@@ -1,10 +1,9 @@
 /* eslint-disable react/display-name */
 import styles from './Apresentation.module.css';
-import { forwardRef } from 'react';
 
-const Apresentation = forwardRef((props, ref) => {
+const Apresentation = () => {
   return (
-    <section ref={ref} className={styles.apresentationSection}>
+    <section id='apresentacao' className={styles.apresentationSection}>
       <div className='container'>
         <div className={styles.apresentationContainer}>
           <h1>Olá, eu sou a Maysa Araujo</h1>
@@ -47,6 +46,6 @@ const Apresentation = forwardRef((props, ref) => {
       </div>
     </section>
   );
-});
+};
 
 export default Apresentation;
