@@ -1,10 +1,9 @@
 /* eslint-disable react/display-name */
 import styles from './Project.module.css';
-import { forwardRef } from 'react';
 
-const Project = forwardRef((props, ref) => {
+const Project = () => {
   return (
-    <section ref={ref} className={styles.projectSection}>
+    <section id='projetos' className={styles.projectSection}>
       <div className='container'>
         <h2>Projetos</h2>
         <div className='svgLine'>
@@ -122,6 +121,6 @@ const Project = forwardRef((props, ref) => {
       </div>
     </section>
   );
-});
+};
 
 export default Project;
