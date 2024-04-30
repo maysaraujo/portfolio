@@ -45,6 +45,10 @@ header .menuBtn {
 
 /* Responsivo */
 @media only screen and (max-width: 768px) {
+  header {
+    padding: 7px 20px;
+  }
+
   header .menuBtn {
     padding: 5px;
     cursor: pointer;
