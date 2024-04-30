@@ -2,6 +2,7 @@
 import styles from './Contact.module.css';
 import { TbMailFilled } from 'react-icons/tb';
 import { IoLogoLinkedin } from 'react-icons/io';
+import Curriculo from '../../assets/CV.pdf';
 
 const Contact = () => {
   return (
@@ -42,7 +43,9 @@ const Contact = () => {
           </div>
         </div>
         <div className={styles.buttonContainer}>
-          <button>Download CV</button>
+          <a href={Curriculo} download>
+            <button>Download CV</button>
+          </a>
         </div>
       </div>
     </section>
