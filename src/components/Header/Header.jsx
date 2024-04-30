@@ -13,6 +13,10 @@ const Header = () => {
     setIsOpen((open) => !open);
   };
 
+  function closeMenu() {
+    setIsOpen(false);
+  }
+
   return (
     <header>
       <div className='container'>
@@ -30,23 +34,23 @@ const Header = () => {
               <div
                 className={`${styles.menu} ${isOpen ? styles.showMenu : ''}`}
               >
-                <NavLink smooth to='#sobre'>
+                <NavLink smooth to='#sobre' onClick={closeMenu}>
                   <li>Sobre mim</li>
                 </NavLink>
 
-                <NavLink smooth to='#experiencias'>
+                <NavLink smooth to='#experiencias' onClick={closeMenu}>
                   <li>Experiências</li>
                 </NavLink>
 
-                <NavLink smooth to='#habilidades'>
+                <NavLink smooth to='#habilidades' onClick={closeMenu}>
                   <li>Habilidades</li>
                 </NavLink>
 
-                <NavLink smooth to='#projetos'>
+                <NavLink smooth to='#projetos' onClick={closeMenu}>
                   <li>Projetos</li>
                 </NavLink>
 
-                <NavLink smooth to='#contato'>
+                <NavLink smooth to='#contato' onClick={closeMenu}>
                   <li>Contato</li>
                 </NavLink>
               </div>
