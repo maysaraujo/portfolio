@@ -1,10 +1,9 @@
 /* eslint-disable react/display-name */
 import styles from './Experience.module.css';
-import { forwardRef } from 'react';
 import Slider from 'react-slick';
 import '../../App.css';
 
-const Experience = forwardRef((props, ref) => {
+const Experience = () => {
   let settings = {
     dots: true,
     arrows: false,
@@ -17,7 +16,7 @@ const Experience = forwardRef((props, ref) => {
   };
 
   return (
-    <section ref={ref} className={styles.experienceSection}>
+    <section id='experiencias' className={styles.experienceSection}>
       <div className='container'>
         <h2>Experiências</h2>
         <div className='svgLine'>
@@ -79,6 +78,6 @@ const Experience = forwardRef((props, ref) => {
       </div>
     </section>
   );
-});
+};
 
 export default Experience;
