@@ -10,7 +10,7 @@ import Skills from './components/Skills/Skills';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Apresentation />
       <About />
@@ -19,7 +19,7 @@ function App() {
       <Project />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 
