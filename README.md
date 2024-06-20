@@ -1,4 +1,4 @@
-<h1 text-align="center">Portfólio | Maysa Araujo - Desenvolvedora Front-end</h1>
+<h1 text-align="center">💻 Portfólio | Maysa Araujo - Desenvolvedora Front-end</h1>
 
 ## 📚 Seções
 O site é composto por seis seções:
@@ -19,10 +19,10 @@ O site é composto por seis seções:
 Para rodar o repositório é necessário clonar o mesmo e dar os seguintes comandos para iniciar o projeto:
 ```
 Clone esse repositório
-$ git clone https://github.com/maysaraujo/dogs.git
+$ git clone https://github.com/maysaraujo/portfolio.git
 
 Entre na pasta
-$ cd dogs
+$ cd portfolio
 
 Instale as dependências
 $ npm install
