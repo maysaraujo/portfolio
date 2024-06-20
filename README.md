@@ -1,4 +1,4 @@
-<h1 text-align="center">💻 Portfólio | Maysa Araujo - Desenvolvedora Front-end</h1>
+<h1 text-align="center">💻 Portfólio | Maysa Araujo</h1>
 
 ## 📚 Seções
 O site é composto por seis seções:
