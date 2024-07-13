@@ -2,7 +2,7 @@
 import styles from './Contact.module.css';
 import { TbMailFilled } from 'react-icons/tb';
 import { IoLogoLinkedin } from 'react-icons/io';
-import Curriculo from '../../assets/Curriculo.pdf';
+import Curriculo from '../../assets/Cv.pdf';
 
 const Contact = () => {
   return (
