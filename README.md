@@ -1,8 +1,36 @@
-# React + Vite
+<h1 text-align="center">💻 Portfólio | Maysa Araujo</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚 Seções
+O site é composto por seis seções:
+- Home: Uma breve apresentação;
+- Sobre: Descrição sobre quem eu sou;
+- Experiências: Mostra minhas experiências profissionais e empresas que presto e prestei serviços;
+- Habilidades: Apresento minhas habilidades em algumas linguagens, com o foco em front-end;
+- Projetos: Alguns projetos desenvolvidos com links para suas respectivas páginas;
+- Contato: Exibe meu LinkedIn e Email para contato.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :wrench: Tecnologias utilizadas
+* ReactJS;
+* CSS;
+* SVGR.
+
+## :rocket: Rodando o projeto
+Para rodar o repositório é necessário clonar o mesmo e dar os seguintes comandos para iniciar o projeto:
+```
+Clone esse repositório
+$ git clone https://github.com/maysaraujo/portfolio.git
+
+Entre na pasta
+$ cd portfolio
+
+Instale as dependências
+$ npm install
+
+Inicie o projeto
+$ npm run dev
+
+O app vai inicializar em <http://localhost:5173>
+```
+
+Feito por <a href="https://github.com/maysaraujo">Maysa Araujo</a>
