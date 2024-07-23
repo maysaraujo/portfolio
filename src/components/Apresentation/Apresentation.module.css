@@ -1,18 +1,18 @@
 section.apresentationSection {
   background-color: var(--black-200);
-  padding: 110px 0 40px 10px;
+  padding: 11rem 0 4rem 1rem;
 }
 
 section .apresentationContainer {
-  font-size: 20px;
+  font-size: 2rem;
   color: var(--white);
 }
 
 section .redes {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-top: 25px;
+  gap: 1rem;
+  margin-top: 2.5rem;
 }
 
 section .redes .iconLinkedin>svg {

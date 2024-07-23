@@ -1,30 +1,30 @@
 section.contactSection {
   background-color: var(--black-100);
-  padding: 60px 0;
+  padding: 6rem 0;
 }
 
 section .contactContainer {
   display: flex;
   align-items: center;
-  gap: 80px;
-  margin-top: 50px;
+  gap: 8rem;
+  margin-top: 5rem;
   flex-wrap: wrap;
 }
 
 section .contactContainer .contactCard {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
 }
 
 section .contactContainer .contactCard .icon {
   border: 1px solid var(--magenta);
-  width: 60px;
+  width: 6rem;
   max-width: 100%;
 
   max-height: 100%;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 1rem;
+  border-radius: .5rem;
 
   display: flex;
   justify-content: center;
@@ -33,24 +33,24 @@ section .contactContainer .contactCard .icon {
 section .contactContainer .contactCard .icon svg {
   fill: var(--white);
   color: var(--white);
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
 }
 
 section .contactContainer .contactCard .textContainer {
   display: flex;
   flex-direction: column;
-  gap: 10px 0;
+  gap: 1rem 0;
 }
 
 section .contactContainer .contactCard .textContainer h3 {
-  font-size: 20px;
+  font-size: 2rem;
   color: var(--white);
   font-weight: 600;
 }
 
 section .contactContainer .contactCard .textContainer p {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: var(--white);
   font-weight: 400;
   word-break: break-word;
@@ -59,19 +59,19 @@ section .contactContainer .contactCard .textContainer p {
 section .buttonContainer {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 6rem;
 }
 
 section .buttonContainer button {
   background-color: transparent;
   color: var(--white);
-  font-size: 24px;
+  font-size: 2.4rem;
 
   font-weight: 900;
   border: 1px solid var(--magenta);
   border-radius: 5px;
 
-  padding: 10px 60px;
+  padding: 1rem 6rem;
   box-shadow: 0 0 3px var(--magenta);
   cursor: pointer;
 }
@@ -79,6 +79,6 @@ section .buttonContainer button {
 /* Responsivo */
 @media only screen and (max-width: 600px) {
   section .contactContainer {
-    gap: 40px;
+    gap: 4rem;
   }
 }

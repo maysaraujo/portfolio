@@ -1,6 +1,6 @@
 section.projectSection {
   background-color: var(--black-200);
-  padding: 60px 0;
+  padding: 6rem 0;
 }
 
 section .cardContainer {
@@ -8,32 +8,32 @@ section .cardContainer {
   grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   align-items: center;
   justify-content: center;
-  gap: 50px;
-  margin-top: 25px;
+  gap: 5rem;
+  margin-top: 2.5rem;
 }
 
 section .cardContainer .card {
-  width: 390px;
+  width: 39rem;
   max-width: 100%;
   max-height: 100%;
 
   border: 1px solid var(--magenta);
   border-radius: 5px;
-  padding: 20px 15px;
+  padding: 2rem 1.5rem;
 
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 2.5rem;
 }
 
 section .cardContainer .card h3 {
-  font-size: 30px;
+  font-size: 3rem;
   color: var(--white);
   font-weight: 600;
 }
 
 section .cardContainer .card h4 {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: var(--gray);
   font-weight: 500;
 }
@@ -45,7 +45,7 @@ section .cardContainer .card .link {
 }
 
 section .cardContainer .card .link p {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: var(--magenta);
   font-weight: 500;
   cursor: pointer;
@@ -64,6 +64,6 @@ section .cardContainer .card .link>svg {
 
 @media only screen and (max-width: 600px) {
   section .cardContainer .card {
-    width: 300px;
+    width: 80%;
   }
 }
