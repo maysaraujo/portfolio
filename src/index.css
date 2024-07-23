@@ -43,16 +43,14 @@ h2 {
   font-weight: 600;
 }
 
-header .container,
-section .container,
-footer .container {
+.container {
   max-width: 1400px;
   width: 90%;
   margin: 0 auto;
 }
 
 section .svgLine {
-  margin-top: -1.3rem;
+  margin-top: -.8rem;
 }
 
 /* Responsivo */
