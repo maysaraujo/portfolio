@@ -34,5 +34,14 @@
     "paragraph": "Ver projeto",
     "icon": "./src/assets/link-external.svg",
     "iconAlt": "Ícone link externo"
+  },
+  {
+    "id": 4,
+    "title": "LP Clipboard",
+    "description": "Uma Landing Page do site Frontend Mentor, feita com Tailwind CSS.",
+    "link": "https://project-clipboard-landing-page.vercel.app/",
+    "paragraph": "Ver projeto",
+    "icon": "./src/assets/link-external.svg",
+    "iconAlt": "Ícone link externo"
   }
 ]
