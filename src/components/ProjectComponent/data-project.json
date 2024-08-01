@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Buscar CEP",
+    "description": "Site buscador de CEP, feito em ReactJS com consumo de API.",
+    "link": "https://buscar-cep-peach.vercel.app/",
+    "paragraph": "Ver projeto",
+    "icon": "/src/assets/link-external.svg",
+    "iconAlt": "Ícone link externo"
+  },
+  {
+    "id": 2,
+    "title": "Gerador de QR Code",
+    "description": "Site gerador de QR Code feito em JavaScript puro.",
+    "link": "https://gerador-qr-code-project.vercel.app/",
+    "paragraph": "Ver projeto",
+    "icon": "/src/assets/link-external.svg",
+    "iconAlt": "Ícone link externo"
+  },
+  {
+    "id": 3,
+    "title": "Gerador de conselhos",
+    "description": "Site gerador de conselhos, feito em ReactJS com consumo de API.",
+    "link": "https://project-advice-generator.vercel.app/",
+    "paragraph": "Ver projeto",
+    "icon": "/src/assets/link-external.svg",
+    "iconAlt": "Ícone link externo"
+  },
+  {
+    "id": 4,
+    "title": "Controle Financeiro",
+    "description": "Uma aplicação de controle financeiro utilizando LocalStorage.",
+    "link": "https://project-controle-financeiro.vercel.app/",
+    "paragraph": "Ver projeto",
+    "icon": "/src/assets/link-external.svg",
+    "iconAlt": "Ícone link externo"
+  }
+]
