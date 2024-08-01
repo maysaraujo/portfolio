@@ -1,5 +1,6 @@
 import styles from './Project.module.css';
 import DataProject from './data-project.json';
+import Icon from '../../assets/link-external.svg'
 
 const Card = () => {
   return (
@@ -13,7 +14,7 @@ const Card = () => {
               <p>{project.paragraph}</p>
             </a>
             <a href={project.link} target='_blank' rel='noreferrer noopener'>
-              <img src={project.icon} alt={project.iconAlt} />
+              <img src={Icon} alt={project.iconAlt} />
             </a>
           </div>
         </div>
