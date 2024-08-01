@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Buscar CEP",
-    "description": "Site buscador de CEP, feito em ReactJS com consumo de API.",
+    "description": "Site buscador de CEP, feito em NextJS com consumo de API.",
     "link": "https://buscar-cep-peach.vercel.app/",
     "paragraph": "Ver projeto",
     "icon": "./src/assets/link-external.svg",
