@@ -6,5 +6,6 @@ section.aboutSection {
 section.aboutSection p {
   color: var(--white);
   font-size: 2rem;
-  max-width: 880px;
+  /* max-width: 880px; */
+  max-width: 1180px;
 }
