@@ -14,7 +14,7 @@
     "description": "Site gerador de QR Code feito em JavaScript puro.",
     "link": "https://gerador-qr-code-project.vercel.app/",
     "paragraph": "Ver projeto",
-    "icon": "/src/assets/link-external.svg",
+    "icon": "/assets/link-external.svg",
     "iconAlt": "Ícone link externo"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Site gerador de conselhos, feito em ReactJS com consumo de API.",
     "link": "https://project-advice-generator.vercel.app/",
     "paragraph": "Ver projeto",
-    "icon": "/src/assets/link-external.svg",
+    "icon": "/assets/link-external.svg",
     "iconAlt": "Ícone link externo"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Uma aplicação de controle financeiro utilizando LocalStorage.",
     "link": "https://project-controle-financeiro.vercel.app/",
     "paragraph": "Ver projeto",
-    "icon": "/src/assets/link-external.svg",
+    "icon": "/assets/link-external.svg",
     "iconAlt": "Ícone link externo"
   }
 ]
