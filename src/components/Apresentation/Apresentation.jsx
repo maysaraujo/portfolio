@@ -14,7 +14,10 @@ const Apresentation = () => {
               target='_blank'
               rel='noreferrer noopener'
             >
-              <div className={styles.iconLinkedin}>
+              <div
+                aria-label='Ícone do LinkedIn'
+                className={styles.iconLinkedin}
+              >
                 <svg
                   width='24'
                   height='24'
@@ -30,7 +33,7 @@ const Apresentation = () => {
               target='_blank'
               rel='noreferrer noopener'
             >
-              <div className={styles.iconGithub}>
+              <div aria-label='Ícone do GitHub' className={styles.iconGithub}>
                 <svg
                   width='27'
                   height='27'

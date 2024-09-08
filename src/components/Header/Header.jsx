@@ -28,7 +28,11 @@ const Header = () => {
                   <li>Maysa.dev</li>
                 </NavLink>
               </div>
-              <button className={styles.menuBtn} onClick={showMenu}>
+              <button
+                aria-label='Menu hamburguer'
+                className={styles.menuBtn}
+                onClick={showMenu}
+              >
                 {isOpen ? <FaTimes /> : <HiMiniBars3 />}
               </button>
               <div
