@@ -1,4 +1,5 @@
 /* eslint-disable react/display-name */
+import Button from '../Button/Button';
 import Card from './Card';
 import styles from './Project.module.css';
 
@@ -21,6 +22,15 @@ const Project = () => {
           </svg>
         </div>
         <Card />
+        <div className={styles.buttonContainer}>
+          <a
+            href='https://github.com/maysaraujo'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <Button text='Ver mais projetos' />
+          </a>
+        </div>
       </div>
     </section>
   );
