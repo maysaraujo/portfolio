@@ -1,0 +1,19 @@
+section .buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+section .buttonContainer button {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 2.4rem;
+
+  font-weight: 900;
+  border: 1px solid var(--magenta);
+  border-radius: 5px;
+
+  padding: 1rem 6rem;
+  box-shadow: 0 0 3px var(--magenta);
+  cursor: pointer;
+}
