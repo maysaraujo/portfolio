@@ -24,6 +24,7 @@ const Project = () => {
         <Card />
         <div className={styles.buttonContainer}>
           <a
+            aria-label='Ver mais projetos'
             href='https://github.com/maysaraujo'
             target='_blank'
             rel='noreferrer'
