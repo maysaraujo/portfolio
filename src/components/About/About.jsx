@@ -22,12 +22,13 @@ const About = () => {
         <div className={styles.textContainer}>
           <p>
             Desenvolvedora Front-end com sólida experiência em tecnologias web.
-            Possuo formação em Análise e Desenvolvimento de Sistemas pela FATEC.
-            Tenho habilidades no desenvolvimento de interfaces de usuário
-            intuitivas e responsivas, além de um forte conhecimento em
-            tecnologias web modernas. Busco constantemente aprimorar minhas
-            habilidades e me manter atualizada com as últimas tendências e
-            melhores práticas da área.
+            Possuo formação em Análise e Desenvolvimento de Sistemas pela FATEC
+            e sou pós-graduanda em Engenharia de Software pela PUC Minas. Tenho
+            habilidades no desenvolvimento de interfaces de usuário intuitivas e
+            responsivas, além de um forte conhecimento em tecnologias web
+            modernas. Busco constantemente aprimorar minhas habilidades e me
+            manter atualizada com as últimas tendências e melhores práticas da
+            área.
           </p>
         </div>
       </div>
