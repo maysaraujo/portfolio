@@ -37,7 +37,7 @@ const Experience = () => {
             <div>
               <div className={styles.cardContainer}>
                 <div className={styles.titleContainer}>
-                  <h3>Mkt4Edu / 4revops</h3>
+                  <h3>Mkt4Edu / 4RevOps</h3>
                 </div>
 
                 <div className={styles.textContainer}>
@@ -45,10 +45,10 @@ const Experience = () => {
                     <h3>Desenvolvedora Front-end</h3>
                     <p>Jan 2023 - atual</p>
                   </div>
-                  <h4>Mkt4Edu / 4revops</h4>
+                  <h4>Mkt4Edu / 4RevOps</h4>
                   <p>
                     Atuo como desenvolvedora Front-end, utilizando
-                    principalmente HTML, CSS e JavaScript Vanilla.
+                    principalmente HTML, CSS e JavaScript.
                   </p>
                 </div>
               </div>

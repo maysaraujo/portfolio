@@ -43,5 +43,14 @@
     "paragraph": "Ver projeto",
     "icon": "./src/assets/link-external.svg",
     "iconAlt": "Ícone link externo"
+  },
+  {
+    "id": 5,
+    "title": "UCB",
+    "description": "Site institucional da Universidade Católica de Brasília.",
+    "link": "https://ucb.catolica.edu.br/",
+    "paragraph": "Ver projeto",
+    "icon": "./src/assets/link-external.svg",
+    "iconAlt": "Ícone link externo"
   }
 ]
