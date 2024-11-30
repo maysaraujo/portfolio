@@ -52,5 +52,14 @@
     "paragraph": "Ver projeto",
     "icon": "./src/assets/link-external.svg",
     "iconAlt": "Ícone link externo"
+  },
+  {
+    "id": 6,
+    "title": "Curso HubSpot",
+    "description": "Site desenvolvido para um curso de HubSpot para a Mkt4Edu / 4RevOps.",
+    "link": "https://4revopsplus.teachable.com/p/treinamentohubspotbasico",
+    "paragraph": "Ver projeto",
+    "icon": "./src/assets/link-external.svg",
+    "iconAlt": "Ícone link externo"
   }
 ]
