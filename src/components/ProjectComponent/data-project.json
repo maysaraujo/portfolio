@@ -61,5 +61,14 @@
     "paragraph": "Ver projeto",
     "icon": "./src/assets/link-external.svg",
     "iconAlt": "Ícone link externo"
+  },
+  {
+    "id": 7,
+    "title": "Agents4edu",
+    "description": "Plataforma SaaS que utiliza IA para otimizar o marketing e vendas de IES.",
+    "link": "https://4revopsplus.teachable.com/p/treinamentohubspotbasico",
+    "paragraph": "Ver projeto",
+    "icon": "./src/assets/link-external.svg",
+    "iconAlt": "Ícone link externo"
   }
 ]
