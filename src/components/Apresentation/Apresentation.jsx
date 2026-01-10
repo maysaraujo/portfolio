@@ -7,7 +7,7 @@ const Apresentation = () => {
       <div className='container'>
         <div className={styles.apresentationContainer}>
           <h1>Olá, eu sou a Maysa Araujo</h1>
-          <p> Desenvolvedora Front-end.</p>
+          <p>Desenvolvedora de Software.</p>
           <div className={styles.redes}>
             <a
               href='https://www.linkedin.com/in/maysaraujo/'

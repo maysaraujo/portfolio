@@ -21,14 +21,15 @@ const About = () => {
         </div>
         <div className={styles.textContainer}>
           <p>
-            Desenvolvedora Front-end com sólida experiência em tecnologias web.
-            Possuo formação em Análise e Desenvolvimento de Sistemas pela FATEC
-            e sou pós-graduanda em Engenharia de Software pela PUC Minas. Tenho
-            habilidades no desenvolvimento de interfaces de usuário intuitivas e
-            responsivas, além de um forte conhecimento em tecnologias web
-            modernas. Busco constantemente aprimorar minhas habilidades e me
-            manter atualizada com as últimas tendências e melhores práticas da
-            área.
+            Sou Desenvolvedora de Software com foco em Backend, formada em
+            Análise e Desenvolvimento de Sistemas pela FATEC e pós-graduanda em
+            Engenharia de Software pela PUC Minas. Atuo no desenvolvimento de
+            sistemas, APIs e regras de negócio, com experiência em Node.js,
+            NestJS, integração entre sistemas e automações. Trabalho na
+            construção de soluções escaláveis, bem estruturadas e orientadas a
+            boas práticas de engenharia de software. Também possuo experiência
+            em Front-end com React, utilizando o front-end como camada de
+            consumo de APIs e suporte à experiência do usuário.
           </p>
         </div>
       </div>

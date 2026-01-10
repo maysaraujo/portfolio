@@ -42,13 +42,17 @@ const Experience = () => {
 
                 <div className={styles.textContainer}>
                   <div>
-                    <h3>Desenvolvedora Front-end</h3>
+                    <h3>Desenvolvedora de Software</h3>
                     <p>Jan 2023 - atual</p>
                   </div>
                   <h4>Mkt4Edu / 4RevOps</h4>
                   <p>
-                    Atuo como desenvolvedora Front-end, utilizando
-                    principalmente HTML, CSS e JavaScript.
+                    Atuo como Desenvolvedora de Software, contribuindo no
+                    desenvolvimento de sistemas web, com foco em backend,
+                    integrações entre sistemas, automações e regras de negócio.
+                    Participo do desenvolvimento de APIs, fluxos de dados e
+                    soluções escaláveis, além da construção de interfaces web
+                    para consumo dessas APIs.
                   </p>
                 </div>
               </div>

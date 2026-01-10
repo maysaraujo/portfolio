@@ -52,23 +52,5 @@
     "paragraph": "Ver projeto",
     "icon": "./src/assets/link-external.svg",
     "iconAlt": "Ícone link externo"
-  },
-  {
-    "id": 6,
-    "title": "Curso HubSpot",
-    "description": "Site desenvolvido para um curso de HubSpot para a Mkt4Edu / 4RevOps.",
-    "link": "https://4revopsplus.teachable.com/p/treinamentohubspotbasico",
-    "paragraph": "Ver projeto",
-    "icon": "./src/assets/link-external.svg",
-    "iconAlt": "Ícone link externo"
-  },
-  {
-    "id": 7,
-    "title": "Agents4edu",
-    "description": "Plataforma SaaS que utiliza IA para otimizar o marketing e vendas de IES.",
-    "link": "https://agents4edu.ai/",
-    "paragraph": "Ver projeto",
-    "icon": "./src/assets/link-external.svg",
-    "iconAlt": "Ícone link externo"
   }
 ]

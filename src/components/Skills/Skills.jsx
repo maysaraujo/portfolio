@@ -1,11 +1,11 @@
 /* eslint-disable react/display-name */
 import SkillsComponent from './SkillsComponent';
 import styles from './Skills.module.css';
-import HtmlIcon from '../../assets/html-icon.svg';
-import CssIcon from '../../assets/css-icon.svg';
 import TailwindIcon from '../../assets/tailwind-css-icon.svg';
 import SassIcon from '../../assets/sass-icon.svg';
 import JavaScriptIcon from '../../assets/javascript-icon.svg';
+import NodejsIcon from '../../assets/nodejs-icon.png';
+import NestjsIcon from '../../assets/nestjs-icon.svg';
 import ReactIcon from '../../assets/react-icon.svg';
 import HubSpotIcon from '../../assets/hubspot-icon.svg';
 import GitIcon from '../../assets/git-icon.svg';
@@ -29,12 +29,12 @@ const Skills = () => {
           </svg>
         </div>
         <div className={styles.cardContainer}>
-          <SkillsComponent image={HtmlIcon} alt='HTML Icon' />
-          <SkillsComponent image={CssIcon} alt='CSS Icon' />
           <SkillsComponent image={TailwindIcon} alt='Tailwind CSS Icon' />
           <SkillsComponent image={SassIcon} alt='SASS Icon' />
           <SkillsComponent image={JavaScriptIcon} alt='JavaScript Icon' />
           <SkillsComponent image={ReactIcon} alt='React Icon' />
+          <SkillsComponent image={NodejsIcon} alt='Nodejs Icon' />
+          <SkillsComponent image={NestjsIcon} alt='Nestjs Icon' />
           <SkillsComponent image={HubSpotIcon} alt='HubSpot Icon' />
           <SkillsComponent image={GitIcon} alt='Git Icon' />
         </div>
