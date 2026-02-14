@@ -7,8 +7,7 @@ const Footer = () => {
     <footer>
       <div className='container'>
         <p>
-          Copyright © {currentYear} <span>Maysa Araujo.</span> Todos os direitos
-          reservados.{' '}
+          Copyright © {currentYear} <span>Maysa Araujo.</span>
         </p>
       </div>
     </footer>

@@ -5,51 +5,68 @@ section.projectSection {
 
 section .cardContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 450px));
+  gap: 2rem;
   margin-top: 2.5rem;
+  height: 100%;
 }
 
 section .cardContainer .card {
   width: 39rem;
   max-width: 100%;
   max-height: 100%;
-
-  border: 1px solid var(--magenta);
-  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
   padding: 2rem 1.5rem;
-
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
 }
 
-section .cardContainer .card h3 {
+section .cardContainer .card .titles h3 {
   font-size: 3rem;
   color: var(--white);
   font-weight: 600;
 }
 
-section .cardContainer .card h4 {
-  font-size: 1.8rem;
+section .cardContainer .card .titles h4:nth-child(2) {
+  font-size: 1.5rem;
   color: var(--gray);
   font-weight: 500;
 }
+
+section .cardContainer .card .titles h4:nth-child(3) {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: var(--white);
+  font-weight: 400;
+}
+
+section .cardContainer .card .items {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-between;
+}
+
+section .cardContainer .card .descriptions h4:nth-child(1) {
+  font-size: 1.5rem;
+  color: var(--gray);
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+section .cardContainer .card .descriptions p {
+  font-size: 1.5rem;
+  color: var(--magenta);
+  font-weight: 500;
+  cursor: pointer;
+}
+
 
 section .cardContainer .card .link {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-section .cardContainer .card .link p {
-  font-size: 1.8rem;
-  color: var(--magenta);
-  font-weight: 500;
-  cursor: pointer;
+  margin-top: auto;
 }
 
 section .cardContainer .card .link>svg {
@@ -57,14 +74,20 @@ section .cardContainer .card .link>svg {
 }
 
 /* Responsivo */
-@media only screen and (max-width: 992px) {
-  section .cardContainer {
-    justify-items: center;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   section .cardContainer .card {
-    width: 75%;
+    width: 95%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    section .cardContainer {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    section .cardContainer {
+      grid-template-columns: 1fr;
+    }
   }
 }

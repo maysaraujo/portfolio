@@ -42,10 +42,6 @@ const Header = () => {
                   <li>Sobre mim</li>
                 </NavLink>
 
-                <NavLink smooth to='#experiencias' onClick={closeMenu}>
-                  <li>Experiências</li>
-                </NavLink>
-
                 <NavLink smooth to='#habilidades' onClick={closeMenu}>
                   <li>Habilidades</li>
                 </NavLink>

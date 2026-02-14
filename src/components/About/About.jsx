@@ -5,31 +5,18 @@ const About = () => {
   return (
     <section id='sobre' className={styles.aboutSection}>
       <div className='container'>
-        <h2>Sobre mim</h2>
-        <div className='svgLine'>
-          <svg
-            width='249'
-            height='7'
-            viewBox='0 0 249 7'
-            xmlns='http://www.w3.org/2000/svg'
-          >
-            <path
-              d='M0.728027 3H0.228027V4H0.728027V3ZM248.665 3.5L245.778 0.613249L242.891 3.5L245.778 6.38675L248.665 3.5ZM0.728027 4H245.778V3H0.728027V4Z'
-              fill='#DF2BF1'
-            />
-          </svg>
-        </div>
+        <h2 className='titleLine'>Sobre mim</h2>
         <div className={styles.textContainer}>
           <p>
-            Sou Desenvolvedora de Software com foco em Backend, formada em
-            Análise e Desenvolvimento de Sistemas pela FATEC e pós-graduanda em
-            Engenharia de Software pela PUC Minas. Atuo no desenvolvimento de
-            sistemas, APIs e regras de negócio, com experiência em Node.js,
-            NestJS, integração entre sistemas e automações. Trabalho na
-            construção de soluções escaláveis, bem estruturadas e orientadas a
-            boas práticas de engenharia de software. Também possuo experiência
-            em Front-end com React, utilizando o front-end como camada de
-            consumo de APIs e suporte à experiência do usuário.
+            Sou Desenvolvedora de Software, formada em Análise e Desenvolvimento
+            de Sistemas pela FATEC e pós-graduanda em Engenharia de Software
+            pela PUC Minas. Atuo no desenvolvimento de sistemas, APIs e regras
+            de negócio, com experiência em Node.js, NestJS, integração entre
+            sistemas e automações. Trabalho na construção de soluções
+            escaláveis, bem estruturadas e orientadas a boas práticas de
+            engenharia de software. Também possuo experiência em Front-end com
+            React, utilizando o front-end como camada de consumo de APIs e
+            suporte à experiência do usuário.
           </p>
         </div>
       </div>

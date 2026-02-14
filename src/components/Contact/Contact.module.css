@@ -58,7 +58,6 @@ section .contactContainer .contactCard .textContainer p {
 
 section .buttonContainer {
   display: flex;
-  justify-content: center;
   margin-top: 6rem;
 }
 

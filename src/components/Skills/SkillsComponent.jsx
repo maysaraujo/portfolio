@@ -1,10 +1,11 @@
 import styles from './Skills.module.css';
 
-const SkillsComponent = ({ image, alt }) => {
+const SkillsComponent = ({ iconSkill, nameSkill }) => {
   return (
     <div className={styles.card}>
       <div className={styles.icon}>
-        <img src={image} alt={alt} />
+        {iconSkill}
+        <p>{nameSkill}</p>
       </div>
     </div>
   );

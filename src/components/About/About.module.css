@@ -1,3 +1,7 @@
+section h2 {
+  margin-bottom: 20px;
+}
+
 section.aboutSection {
   background-color: var(--black-100);
   padding: 6rem 0;
@@ -6,6 +10,5 @@ section.aboutSection {
 section.aboutSection p {
   color: var(--white);
   font-size: 2rem;
-  /* max-width: 880px; */
   max-width: 1180px;
 }

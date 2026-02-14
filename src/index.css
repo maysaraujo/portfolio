@@ -11,6 +11,7 @@
   --gray: #9CA3AF;
   --magenta: #DF2BF1;
   --white: #FFF;
+  --extra-line: 10px;
 }
 
 body {
@@ -49,11 +50,37 @@ h2 {
   margin: 0 auto;
 }
 
-section .svgLine {
-  margin-top: -.8rem;
+.titleLine {
+  width: fit-content;
+  position: relative;
 }
 
-/* Responsivo */
+.titleLine::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: calc(100% + var(--extra-line));
+  background-color: var(--magenta);
+}
+
+.titleLine::after {
+  content: '';
+  position: absolute;
+  left: calc(100% + var(--extra-line));
+  bottom: -3px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--magenta);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.iconSkill {
+  width: 4em;
+  height: 4em;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 4rem;
