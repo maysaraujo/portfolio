@@ -15,5 +15,15 @@
     "icon": "./src/assets/link-external.svg",
     "iconAlt": "Ícone link externo",
     "technologies": "HTML, CSS, JavaScript, HubSpot CMS"
+  },
+  {
+    "id": 3,
+    "title": "Payroll API",
+    "subtitle": "Projeto Pessoal",
+    "description": "API desenvolvida em NestJS para cálculo de folha de pagamento com regras reais de INSS, IRRF e FGTS. A solução permite o cadastro dinâmico de faixas progressivas via endpoints da API, possibilitando atualização das regras tributárias sem necessidade de alteração no código. O projeto implementa cálculos progressivos, validações e documentação via Swagger, com foco em modelagem de regras de negócio e organização de domínio.",
+    "link": "https://github.com/maysaraujo/payroll-api",
+    "icon": "./src/assets/link-external.svg",
+    "iconAlt": "Ícone link externo",
+    "technologies": "NestJS, TypeScript, MongoDB, Mongoose, Swagger"
   }
 ]
